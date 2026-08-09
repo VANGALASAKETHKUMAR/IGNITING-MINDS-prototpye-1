@@ -94,7 +94,8 @@ export default function Navigation({ currentPage, navigate }: Props) {
                 </button>
 
                 {megaMenu === 'capabilities' && (
-                  <div className="absolute top-full left-1/2 -translate-x-1/2 mt-3 w-[520px] bg-navy-mid border border-border-dark shadow-2xl shadow-black/50">
+                  <div className="absolute top-full left-1/2 -translate-x-1/2 w-[520px] pt-3">
+                    <div className="bg-navy-mid border border-border-dark shadow-2xl shadow-black/50">
                     <div className="p-5">
                       <div className="font-mono text-[9px] text-steel uppercase tracking-[0.22em] mb-4 pb-3 border-b border-border-dark">
                         Manufacturing Capabilities
@@ -126,6 +127,7 @@ export default function Navigation({ currentPage, navigate }: Props) {
                       </div>
                     </div>
                   </div>
+                  </div>
                 )}
               </div>
 
@@ -147,8 +149,8 @@ export default function Navigation({ currentPage, navigate }: Props) {
                 </button>
 
                 {megaMenu === 'products' && (
-                  <div className="absolute top-full left-1/2 -translate-x-1/2 mt-3 w-[520px] bg-navy-mid border border-border-dark shadow-2xl shadow-black/50">
-                    <div className="p-5">
+                    <div className="absolute top-full left-1/2 -translate-x-1/2 w-[520px] pt-3">
+                      <div className="bg-navy-mid border border-border-dark shadow-2xl shadow-black/50">                    <div className="p-5">
                       <div className="font-mono text-[9px] text-steel uppercase tracking-[0.22em] mb-4 pb-3 border-b border-border-dark">
                         Product Lines
                       </div>
@@ -178,6 +180,7 @@ export default function Navigation({ currentPage, navigate }: Props) {
                         </button>
                       </div>
                     </div>
+                  </div>
                   </div>
                 )}
               </div>
